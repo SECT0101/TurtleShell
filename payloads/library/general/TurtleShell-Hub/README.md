@@ -12,8 +12,8 @@ The Hub runs one payload at a time. TurtleShell carries both payloads unchanged,
 
 | Service | Version | Web console | What it does |
 |---|---|---|---|
-| **TurtleTAK** | 1.0.1 | `http://<hub>:8484` | The Hub on TAK as a facility sensor: status, GeoChat, network watch alerts, mesh SA bridge, offline map |
-| **TurtleMesh** | 1.0.1 | `http://<hub>:8485` | A Meshtastic radio: mesh chat, nodes and map, radio settings, mesh watch and sensor alerts, alerts over LoRa, mesh ↔ TAK bridge |
+| **TurtleTAK** | 1.0.2 | `http://<hub>:8484` | The Hub on TAK as a facility sensor: status, GeoChat, network watch alerts, mesh SA bridge, offline map |
+| **TurtleMesh** | 1.0.2 | `http://<hub>:8485` | A Meshtastic radio: mesh chat, nodes and map, radio settings, mesh watch and sensor alerts, alerts over LoRa, mesh ↔ TAK bridge |
 
 ## How they work together
 

@@ -8,7 +8,7 @@ The LAN Turtle Hub runs one payload at a time. **TurtleShell** is one payload th
 
 **Payloads here are written in Bash + Python for the LAN Turtle Hub. They are community payloads and are not supported or guaranteed by Hak5.** See [Legal](#legal).
 
-Need only one of them? Use [TurtleTAK](https://github.com/SECT0101/TurtleTAK) or [TurtleMesh](https://github.com/SECT0101/TurtleMesh) on its own.
+Need only one of them? Use [TurtleTAK](https://github.com/SECT0101/TurtleTAK) or [TurtleMesh](https://github.com/SECT0101/TurtleMesh) on its own. Also see [TurtleTAK Classic](https://github.com/SECT0101/TurtleTAK-Classic) for the original LAN Turtle and LAN Turtle SD, [PagerTAK](https://github.com/SECT0101/PagerTAK) for the WiFi Pineapple Pager and [PagerMesh](https://github.com/SECT0101/PagerMesh) for Meshtastic on the Pager.
 
 ---
 
@@ -16,7 +16,7 @@ Need only one of them? Use [TurtleTAK](https://github.com/SECT0101/TurtleTAK) or
 
 | Edition | Device | Version | Description |
 |---|---|---|---|
-| [TurtleShell Hub Edition](payloads/library/general/TurtleShell-Hub/) | LAN Turtle Hub | 1.0.0 | TurtleTAK 1.0.1 and TurtleMesh 1.0.1 from one payload. TurtleTAK puts the Hub on TAK as a facility sensor with network watch alerts (web console on port 8484). TurtleMesh runs a Meshtastic radio with mesh chat, nodes, mesh watch and sensor alerts and a mesh ↔ TAK bridge (port 8485). Together: one TAK setup for both, TurtleTAK's alerts over LoRa, the radio's GPS as the Hub's position, consoles that link to each other, and a watchdog that restarts either service if it stops. |
+| [TurtleShell Hub Edition](payloads/library/general/TurtleShell-Hub/) | LAN Turtle Hub | 1.0.1 | TurtleTAK 1.0.2 and TurtleMesh 1.0.2 from one payload. TurtleTAK puts the Hub on TAK as a facility sensor with network watch alerts (web console on port 8484). TurtleMesh runs a Meshtastic radio with mesh chat, nodes, mesh watch and sensor alerts and a mesh ↔ TAK bridge (port 8485). Together: one TAK setup for both, TurtleTAK's alerts over LoRa, the radio's GPS as the Hub's position, consoles that link to each other, and a watchdog that restarts either service if it stops. |
 
 ## Repository layout
 
